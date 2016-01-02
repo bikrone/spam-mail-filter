@@ -6,6 +6,16 @@ This is a simple Spam Mail Filter program written in Python, using Naive Bayes C
 
 ----------
 
+###Installation
+Install the stop-words library:
+
+
+```$ pip install stop-words````
+
+or
+
+```$ easy_install stop-words```
+
 ###Dataset
 Currently the program uses the [Enron-Spam dataset](http://www.aueb.gr/users/ion/data/enron-spam/) (Enron1 & Enron2 as the training set, Enron3 as the test set, you can download more change it later).
 
