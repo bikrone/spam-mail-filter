@@ -34,4 +34,4 @@ With ![](https://latex.codecogs.com/gif.latex?c_s) is the category of spam and !
 The similar goes with ![](https://latex.codecogs.com/gif.latex?p%28M%20%7C%20c_h%29) 
 
 > **Note:**
-> In this program, the Long (Bignum type) in python is used to avoid dataloss when using float multiplication. To do that, we multiply each ![p(token|c)](https://latex.codecogs.com/gif.latex?p%28token%7Cc%29) with 1000 and force convert to Long (keep 3 decimal digit).
+> In this program, the Long (Bignum type) in python is used to avoid dataloss when using float multiplication. To do that, we multiply each p(token|c) with 1000 and force convert to Long (keep 3 decimal digit).
