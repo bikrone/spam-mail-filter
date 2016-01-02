@@ -29,6 +29,7 @@ With ![](https://latex.codecogs.com/gif.latex?c_s) is the category of spam and !
 
  The formula to calculate ![](https://latex.codecogs.com/gif.latex?p%28M%20%7C%20c_s%29) is:
  > ![](https://latex.codecogs.com/gif.latex?p%28M%20%7C%20c_s%29%20=%20%5Cprod_%7Bi=1%7D%5E%7BnToken%7Dp%28token_i%7Cc_s%29)
+ >
  > with ![](https://latex.codecogs.com/gif.latex?p%28token%20%7C%20c_s%29%20=%20%5Cfrac%7B1&plus;count_%7Bspam%7D%28token%29%7D%7B2&plus;count_%7Btotal%7D%28token%29%7D)
 
 The similar goes with ![](https://latex.codecogs.com/gif.latex?p%28M%20%7C%20c_h%29) 
